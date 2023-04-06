@@ -2,6 +2,7 @@
   "name": "openai_image_gen_server",
   "version": "1.0.0",
   "description": "OPENAI IMAGE GENERATOR SERVER",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/rocketman5290/OPENAI_IMAGE_GEN_SERVER/issues"
   },
-  "homepage": "https://github.com/rocketman5290/OPENAI_IMAGE_GEN_SERVER#readme"
+  "homepage": "https://github.com/rocketman5290/OPENAI_IMAGE_GEN_SERVER#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.2.1"
+  }
 }
