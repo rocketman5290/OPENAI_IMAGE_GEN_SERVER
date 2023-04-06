@@ -13,7 +13,9 @@ import express from 'express';
 import cors from 'cors';
 
 const app = express();
-app.use(cors.Configuration({ origin: false}));
+app.use(cors({
+    origin: 'http://localhost:5173'
+}));
 app.use(express.json());
 
 app.post('/dream', async (req, res) => {
