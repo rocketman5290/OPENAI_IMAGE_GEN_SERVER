@@ -13,7 +13,7 @@ import express from 'express';
 import cors from 'cors';
 
 const app = express();
-app.use(cors());
+app.use(cors.Configuration({ origin: false}));
 app.use(express.json());
 
 app.post('/dream', async (req, res) => {
