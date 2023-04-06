@@ -1,0 +1,26 @@
+{
+  "name": "openai_image_gen_server",
+  "version": "1.0.0",
+  "description": "OPENAI IMAGE GENERATOR SERVER",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocketman5290/OPENAI_IMAGE_GEN_SERVER.git"
+  },
+  "keywords": [
+    "Express.js",
+    "Node.js",
+    "server",
+    "OPENAI",
+    "API"
+  ],
+  "author": "William George",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rocketman5290/OPENAI_IMAGE_GEN_SERVER/issues"
+  },
+  "homepage": "https://github.com/rocketman5290/OPENAI_IMAGE_GEN_SERVER#readme"
+}
